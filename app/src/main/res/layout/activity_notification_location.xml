@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.NotificationPush">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/location3x" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:text="@string/turn_on_location_service" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/share_your_location_to_heple_us_nfind_the_best_places_near_you" />
+
+    <Button
+        android:id="@+id/buttonLocation"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="17sp"
+        android:background="@drawable/buttonsingup2"
+        android:textColor="#fff"
+        android:text="@string/okay" />
+
+    <TextView
+        android:id="@+id/txtMaybeLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#933DEC"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:text="@string/maybe_later" />
+
+
+</LinearLayout>
